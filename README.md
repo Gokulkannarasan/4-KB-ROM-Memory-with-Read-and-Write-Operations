@@ -60,6 +60,7 @@ end
 
 endmodule
 
+
 # Testbench code for ROM
 
 module rom_design_tb;
@@ -121,9 +122,11 @@ end
 
 endmodule
 
+
 # OUTPUT
 
 ![Screenshot (33)](https://github.com/user-attachments/assets/35bc7fe0-62e9-4d73-8cff-97e5c225aa90)
+
 
 # RAM-Memory-with-Read-and-Write-Operations
 
@@ -173,6 +176,7 @@ data_out <= mem[address];
 
 end
 endmodule
+
 
 # Testbench code for RAM
 
@@ -235,9 +239,11 @@ end
 
 endmodule
 
+
 # OUTPUT
 
 ![Screenshot (32)](https://github.com/user-attachments/assets/8d97aec7-210c-4f39-9994-ab96ddb040c9)
+
 
 # FIRST IN FIRST OUT [FIFO]
 
@@ -305,6 +311,7 @@ assign full = (w_ptr + 1 == r_ptr);
 assign empty = (w_ptr == r_ptr);
 
 endmodule
+
 
 # Testbench code for FIFO
 
@@ -393,13 +400,15 @@ end
 
 endmodule
 
+
 # OUTPUT
 
 ![Screenshot (34)](https://github.com/user-attachments/assets/9e6b05a4-15bf-4f15-86f9-de708afc130e)
 
+
 # CONCLUSION
 
-Thus 4-KB-ROM-Memory-with-Read-and-Write-Operations is successfully verified using verilog hdl in vivado.
+In this experiment, a 4KB ROM memory with read and write operations was designed and successfully simulated using Verilog HDL. The testbench verified both the write and read functionalities by simulating the memory operations and observing the output waveforms. The experiment demonstrates how to implement memory operations in Verilog, effectively modeling both the reading and writing processes for ROM.
 
 
 
