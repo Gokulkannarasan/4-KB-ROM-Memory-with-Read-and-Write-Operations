@@ -1,4 +1,4 @@
-# 4-KB-ROM-Memory-with-Read-and-Write-Operations
+# Exp No:6 4-KB-ROM-Memory-with-Read-and-Write-Operations using verilog hdl
 
 ## Aim 
 
@@ -123,7 +123,7 @@ end
 endmodule
 
 
-## OUTPUT
+## Output
 
 ![Screenshot (33)](https://github.com/user-attachments/assets/35bc7fe0-62e9-4d73-8cff-97e5c225aa90)
 
@@ -242,7 +242,7 @@ end
 endmodule
 
 
-## OUTPUT
+## Output
 
 ![Screenshot (32)](https://github.com/user-attachments/assets/8d97aec7-210c-4f39-9994-ab96ddb040c9)
 
@@ -403,12 +403,12 @@ end
 endmodule
 
 
-## OUTPUT
+## Output
 
 ![Screenshot (34)](https://github.com/user-attachments/assets/9e6b05a4-15bf-4f15-86f9-de708afc130e)
 
 
-# CONCLUSION
+# Conclusion
 
 In this experiment, a 4KB ROM memory with read and write operations was designed and successfully simulated using Verilog HDL. The testbench verified both the write and read functionalities by simulating the memory operations and observing the output waveforms. The experiment demonstrates how to implement memory operations in Verilog, effectively modeling both the reading and writing processes for ROM.
 
