@@ -1,4 +1,4 @@
-# Exp No:6 4-KB-ROM-Memory-with-Read-and-Write-Operations using verilog hdl
+# Exp No:7 Write the verilog hdl code for 4 KB ROM Memory with Read and Write Operations and verify with testbench
 
 ## Aim 
 
